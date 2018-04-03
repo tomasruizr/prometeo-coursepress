@@ -1,0 +1,723 @@
+/************************************************
+ Prometeo General
+**************************************************/
+/*COLOR: #efb30e*/
+
+/*.single_add_to_cart_button{*/
+.button{
+	-moz-box-shadow: inset 0 0 12px 0px #f39d13 !important;
+	-webkit-box-shadow: inset 0 0 12px 0px #f39d13 !important;
+	box-shadow: inset 0 0 12px 0px #f39d13 !important;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #efb30e), color-stop(1, #b3860b)) !important;
+	background:-moz-linear-gradient(top, #efb30e 5%, #b3860b 100%) !important;
+	background:-webkit-linear-gradient(top, #efb30e 5%, #b3860b 100%) !important;
+	background:-o-linear-gradient(top, #efb30e 5%, #b3860b 100%) !important;
+	background:-ms-linear-gradient(top, #efb30e 5%, #b3860b 100%) !important;
+	background:linear-gradient(to bottom, #efb30e 5%, #b3860b 100%) !important;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#efb30e', endColorstr='#b3860b',GradientType=0) !important;
+	background-color:#efb30e !important;
+	-moz-border-radius:8px !important;
+	-webkit-border-radius:8px !important;
+	border-radius:8px !important;
+	display:inline-block !important;
+	cursor:pointer !important;
+	color:#ffffff !important;
+	font-size:1em !important;
+	font-weight:bold !important;
+	padding:1em 1em !important;
+	text-decoration:none !important;
+	text-shadow:0px 1px 0px #461375 !important;
+}
+
+.quick-course-info-prometeo .apply-button, .prometeo-button {
+	-moz-box-shadow: inset 0 0 12px 0px #f39d13;
+	-webkit-box-shadow: inset 0 0 12px 0px #f39d13;
+	box-shadow: inset 0 0 12px 0px #f39d13;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #efb30e), color-stop(1, #b3860b));
+	background:-moz-linear-gradient(top, #efb30e 5%, #b3860b 100%);
+	background:-webkit-linear-gradient(top, #efb30e 5%, #b3860b 100%);
+	background:-o-linear-gradient(top, #efb30e 5%, #b3860b 100%);
+	background:-ms-linear-gradient(top, #efb30e 5%, #b3860b 100%);
+	background:linear-gradient(to bottom, #efb30e 5%, #b3860b 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#efb30e', endColorstr='#b3860b',GradientType=0);
+	background-color:#efb30e;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff !important;
+	font-size:1em;
+	font-weight:bold;
+	padding:1em 1em;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #461375;
+}
+
+.prometeo-button-small {
+	-moz-box-shadow: inset 0px 0px 4px 1px #f39d13;
+	-webkit-box-shadow: inset 0px 0px 4px 1px #f39d13;
+	box-shadow: inset 0px 0px 4px 1px #f39d13;
+	padding: 5px 8px !important;
+}
+
+.quick-course-info-prometeo .apply-button:hover, .prometeo-button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b3860b), color-stop(1, #efb30e));
+	background:-moz-linear-gradient(top, #b3860b 5%, #efb30e 100%);
+	background:-webkit-linear-gradient(top, #b3860b 5%, #efb30e 100%);
+	background:-o-linear-gradient(top, #b3860b 5%, #efb30e 100%);
+	background:-ms-linear-gradient(top, #b3860b 5%, #efb30e 100%);
+	background:linear-gradient(to bottom, #b3860b 5%, #efb30e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3860b', endColorstr='#efb30e',GradientType=0);
+	background-color:#b3860b;
+	color:#ffffff;
+}
+.quick-course-info-prometeo .apply-button:active, .prometeo-button:active {
+	position:relative;
+	top:1px;
+}
+
+
+.social-ico{
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+    display: block;
+    margin-left: 5px;
+}
+.facebook-share {
+	background: url(/assets/img/fb_ico.png);
+}
+.twitter-share {
+	background: url(/assets/img/tt_ico.png);
+}
+.google-share{
+	background: url(/assets/img/google_ico.png);
+}
+.email-share{
+	background: url(/assets/img/gmail_ico.png);
+}
+
+
+
+/************************************************
+* Listado de Cursos
+*************************************************/
+figure {
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.list_price_prometeo{
+    text-align: right;
+    color: #efb30e;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-right: 10px;
+}
+
+.course-data {
+	background-color: black;
+}
+
+.course-media-img{
+	width: 220px;
+	height: 122px !important;
+}
+
+.instructor-list instructor-list-flat {
+	height: 19px;
+}
+.course-meta-information{
+	margin-bottom: 10px;
+	height: 78px;
+}
+
+.course_list_item_prometeo{
+	width: 220px;
+    margin: 20px 30px 30px;
+}
+
+.course-information{
+    padding: 5px;
+    height: 170px;
+}
+
+.quick-course-info-prometeo .apply-button, .course-list-box .prometeo-button {
+	margin-left: 10px;
+    font-weight: bold;
+}
+
+.course-list-entoll{
+    margin-left: 8px;
+}
+
+.course-list-box{
+    background-color: black !important;
+    text-align: initial;
+    /*display: initial;*/
+    height: 385px;
+    border-color: #efb30e;
+    border-style: groove;
+    border-radius: 14px;
+    border-width: thin;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 140px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.6) inset;
+    float:none;
+    display: inline-table;
+}
+
+.um .course-list-box {
+    box-sizing: border-box;
+    font-size: 0.9em;
+}
+
+
+.course_list_box_item.has-thumbnail .course-information {
+    padding: 0;	
+}
+.course_list_box_item .course-information {
+  	display: initial !important;
+    padding: 0;
+}
+.course-title {
+	color: deepskyblue;
+}
+.course_list_prometeo_centered{
+	text-align: center;
+}
+/* @media (max-width: 1024px){
+	.course-list-box{
+		float:none;
+	}
+} */
+
+/************************************************
+* Filtro del listado de Cursos
+*************************************************/
+.filter-select-browse-course{
+    width: 80%;
+    margin-left: 5%;
+}
+.browse-course-select{
+    width: 18em;
+}
+
+.styled-select {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   height: 29px;
+   overflow: hidden;
+   width: 240px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   background-color: #3b8ec2; 
+}
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+   color: white;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+.styled-select select::-ms-expand {
+    display: none;
+}
+
+#div-browse-courses{
+	overflow: hidden;
+	text-align: center;
+}
+.buscar_button{
+	color: deepskyblue;
+}
+.exec-buscar {
+    display: inline-block;
+    margin-left: 3em;
+    margin-top: 2em;
+    vertical-align: bottom;
+}
+.squaredCheck {
+    width: 100%;
+    position: relative;
+    margin: 20px auto;
+    display: inline;
+}
+.squaredCheck label {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fcfff4;
+  background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  background: linear-gradient(to bottom, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  border-radius: 4px;
+  box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.squaredCheck label:after {
+  content: '';
+  width: 9px;
+  height: 5px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border: 3px solid #333;
+  border-top: none;
+  border-right: none;
+  background: transparent;
+  opacity: 0;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.squaredCheck label:hover::after {
+  opacity: 0.5;
+}
+.squaredCheck input[type=checkbox] {
+  visibility: hidden;
+}
+.squaredCheck input[type=checkbox]:checked + label:after {
+  opacity: 1;
+}
+.check-container {
+    text-align: left;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 9px;
+    height: 12em;
+    width: 300px;
+    overflow: auto;
+    padding: 1.5em;
+    float: none;
+    display: inline-block;
+    margin-left: 1em;
+}
+
+/* .squaredThree */
+.cb-label{
+  position:relative;
+  padding-left:10px;
+  display:inline;
+}
+.squaredCheck label:disabled, .squaredCheck input:disabledm .squaredCheck spam:disabled{
+	color: gray;
+
+}
+
+@media (max-width: 755px) {
+	.check-container {
+		float: left;
+		width: 85%;
+	}
+}
+/************************************************
+* Detalle de Cursos
+*************************************************/
+
+.entry-header-prometeo {
+	margin: 20px 0 20px;
+}
+.course-video-prometeo{
+	position: relative;
+    /* padding-bottom: 56.25%; */
+    /* height: 0; */
+    overflow: hidden;
+    margin: auto;
+}
+.course-video-prometeo iframe {
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.course-price-prometeo{
+	font-size: 2em;
+	font-weight: bold;
+	color: hsl(103, 100%, 63%);
+}
+
+
+.course-description iframe {
+	display: block;
+    top:0;
+    left: 0;
+    width: 100% !important;
+}
+
+.quick-course-info-prometeo {
+	padding: 1em 0 !important;
+}
+
+.course-description-info-prometeo{
+    border-radius: 10px;
+    border-color: #efb30e;
+    background-color: rgba(97, 62, 20, 0.88);
+    border-width: 2px;
+    border-style: solid;
+    padding: 15px;
+    margin-right: 2%;
+    margin-left: 2%;
+    -moz-box-shadow: inset 0 0 5px 0px #f39d13;
+	-webkit-box-shadow: inset 0 0 5px 0px #f39d13;
+	box-shadow: inset 0 0 5px 0px #f39d13;
+}
+
+.unit{
+    padding: 0.5em 0 0.5em;
+    background-color: rgba(214, 214, 214, 0.7);
+    border-color: rgb(45, 45, 45);
+    border-width: thick;
+    border-style: double;
+    border-radius: 10px;
+}
+.unit-title-wrapper{
+	padding: 0.6em;
+    margin: 0 1em 0.5em 2em;
+    background-color: rgba(23, 22, 22, 0.7);
+    border-radius: 10px;
+    font-weight: bold;
+}
+.unit-page-title-wrapper {
+    padding: 0.6em;
+    margin: 0 1em 0.5em;
+    background-color: rgba(130, 130, 130, 0.7);
+    border-radius: 10px;
+    font-style: italic;	
+}
+.unit-page-module-wrapper{
+    padding: 0.5em;
+    margin: 0 1em 0.3em;
+    background-color: rgba(97, 97, 97, 0.7);
+    border-radius: 10px;
+}
+
+.unit-module-preview-link a{
+	color: #efb30e !important;
+    font-style: italic;
+    margin-left: 1em;
+}
+
+.course-video .course-media-img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: initial !important;
+}
+
+@media (max-width: 1024px) {
+	.course-description-info-prometeo{
+		margin-top: 20px;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 40px;
+	}
+	.entry-header-prometeo {
+		margin-top: 0;
+	}
+	.tree{
+		padding: initial !important;
+	}
+}
+@media (min-width: 1025px){
+	.sticky {
+    	z-index: 10000;
+    	position: fixed;
+    	top: 15%;
+	}
+}
+
+/******************************************/
+/*Instructors list
+/******************************************/
+.instructor-profile{
+	background-color: black !important;
+    /*text-align: initial;*/
+    height: 430px;
+    border-color: #efb30e;
+    border-style: groove;
+    border-radius: 14px;
+    border-width: thin;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 40px rgba(0,0,0,1) inset;
+    width: 220px;
+    margin: 20px 30px 30px;
+	float:none;
+    text-align: left;
+    display: inline-table;
+}
+
+.invicible-link{
+    display: block;
+    width: 100%;
+    height: 220px;
+}
+.h1-instructors{
+	margin: 26.56px 0 5px;
+}
+.instructor-data-prometeo{
+	padding: 1em;
+}
+.profile-name{
+	color: #efb30e;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.profile-description{
+    color: #9E9E9E;
+    display: table-cell;
+}
+
+.instructor-block{
+	text-align: center;
+}
+
+/* @media (max-width: 596px){
+	.instructor-profile{
+		float:none;
+	}
+} */
+
+
+
+/*********************************************************/
+/*Munu Links*/
+/*********************************************************/
+
+
+.cp-submenu .submenu-item.submenu-active{
+    opacity: 1;
+    background-color: #75590C;
+    border-radius: 5px;
+    padding: 2px;
+}
+.cp-submenu .submenu-item.submenu-active a{
+	color: #FFCF4C !important;
+}
+
+/*.cp-submenu .submenu-item a {
+	color: #efb30e;
+}
+.cp-submenu .submenu-item a:visited{
+	color: #C39004;
+}
+.cp-submenu .submenu-item a:hover{
+	color: #fff;
+}
+.cp-submenu .submenu-item a:active{
+	color: #FFCF4C;
+}*/
+
+
+/************************************************************/
+/* UNITS */
+/************************************************************/
+.course-structure-block,
+.course-box,
+.course-meta-information {
+    color: white;
+}
+
+.coursepress-focus-view .coursepress-breadcrumbs {
+	display: none;
+}
+
+.coursepress-single-unit iframe{
+	display: block;
+    top:0;
+    left: 0;
+    width: 100% !important;
+	height: 100vh !important;
+}
+
+.divider-unit-view {
+	border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+    margin: 10px 0 10px;
+    display:block;
+}
+
+.unit{
+	padding: 2em !important;
+}
+
+.video_player{
+	position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: auto;
+}
+.video_player iframe, {
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+@media (max-width: 1024px){
+	.coursepress-single-unit iframe{
+		height: initial !important;
+	}
+}
+
+/****************************************************************/
+/*Modal Register*/
+/****************************************************************/
+
+#student-settings input, .student-settings.login-form input{
+  padding: 0 12px!important;
+    width: 100%;
+    display: block!important;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 7px;
+    cursor: text!important;
+    font-size: 15px!important;
+    height: 40px!important;
+    box-sizing: border-box!important;
+    /* box-shadow: none!important; */
+    margin: 0!important;
+    position: static;
+    /* outline: 0!important; */
+    background-color: #eee;
+    color: black;
+}
+.enrollment-modal-container {
+    background: #246e94 none repeat scroll 0 0;
+}
+.enrolment-container-div .bbm-modal .cancel-link {
+    border-radius: 5px;
+    background-color: #585858;
+}
+
+/****************************************************************/
+/*Discussions*/
+/****************************************************************/
+.page-navigation-discussions{
+  text-align: center;
+  margin-top: 5em;
+}
+.page-navigation-discussions a{
+  margin: 5px;
+}
+/****************************************************************/
+/*Discussions Detail*/
+/****************************************************************/
+.comment, .trackback, .pingback{
+  width: 100%;
+}
+#commentform #submit, .reply, #reply-title small, .button-color, #portfolio_load_more {
+    background-color: inherit !important;
+}
+.reply a{
+    border-radius: 8px;
+    background-color: mintcream;
+}
+/****************************************************************/
+/*New Question*/
+/****************************************************************/
+
+.new_question_form input, .new_question_form textarea {
+    padding: 0 12px!important;
+    width: 80%;
+    display: block!important;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 7px;
+    cursor: text!important;
+    font-size: 15px!important;
+    height: 40px!important;
+    box-sizing: border-box!important;
+    /* box-shadow: none!important; */
+    margin: 1em auto;
+    position: static;
+    /* outline: 0!important; */
+    background-color: #fff;
+    color: black;
+}
+.new_question_form textarea{
+  height: 8em !important;
+  color: black;
+}
+.new_question_form textarea::placeholder,
+.new_question_form input::placeholder{  
+    color: #888;
+    opacity:  1;
+}
+.new_question_form input[type=submit]{
+  -moz-box-shadow: inset 0 0 12px 0px #f39d13 !important;
+  -webkit-box-shadow: inset 0 0 12px 0px #f39d13 !important;
+  box-shadow: inset 0 0 12px 0px #f39d13 !important;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #efb30e), color-stop(1, #b3860b)) !important;
+  background:-moz-linear-gradient(top, #efb30e 5%, #b3860b 100%) !important;
+  background:-webkit-linear-gradient(top, #efb30e 5%, #b3860b 100%) !important;
+  background:-o-linear-gradient(top, #efb30e 5%, #b3860b 100%) !important;
+  background:-ms-linear-gradient(top, #efb30e 5%, #b3860b 100%) !important;
+  background:linear-gradient(to bottom, #efb30e 5%, #b3860b 100%) !important;
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#efb30e', endColorstr='#b3860b',GradientType=0) !important;
+  background-color:#efb30e !important;
+  -moz-border-radius:8px !important;
+  -webkit-border-radius:8px !important;
+  border-radius:8px !important;
+  cursor:pointer !important;
+  color:#ffffff !important;
+  font-size:1em !important;
+  font-weight:bold !important;
+  padding:1em 1em !important;
+  text-decoration:none !important;
+  text-shadow:0px 1px 0px #461375 !important;
+  widows: 50%;
+}
+
+#units_dropdown_select{
+  margin-left: 10%;
+}
+
+.new_question{
+  text-align: center;
+}
+
+
+/************************************************
+Examenes
+*************************************************/
+.cp-module-content  select{
+    border-radius: 4px;
+    padding: 6px;
+}
+
+.cp .module-header .is-mandatory{
+  float: none;
+  color: black;
+}
+.cp .module-elements input[type="text"], .cp .module-elements textarea{
+  border-radius: 8px;
+  background-color: white;
+  color:black;
+}
+
+.cp .module-elements textarea::placeholder,
+.cp .module-elements input::placeholder{  
+    color: #888;
+    opacity:  1;
+}
+
+.cp-alert-container .cp-alert p{
+  color:black;
+}
